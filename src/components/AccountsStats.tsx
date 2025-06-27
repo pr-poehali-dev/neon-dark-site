@@ -45,9 +45,9 @@ const AccountsStats = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-muted-foreground">Офлайн</p>
-              <p className="text-2xl font-bold text-yellow-500">1</p>
+              <p className="text-2xl font-bold text-red-500">1</p>
             </div>
-            <Icon name="Clock" className="text-yellow-500 w-8 h-8" />
+            <Icon name="Clock" className="text-red-500 w-8 h-8" />
           </div>
         </CardContent>
       </Card>
